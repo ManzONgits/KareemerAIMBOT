@@ -1,5 +1,6 @@
 # Kareemer
-Lunar is a neural network aim assist that uses real-time object detection accelerated with CUDA on Nvidia GPUs.
+Kareemer is a neural network aim assist that uses real-time object detection accelerated with CUDA on Nvidia GPUs.
+THIS IS A FORKED REPO OF [Lunar](https://github.com/zeyad-mansour/Lunar/) this is not fully made by me, and please dont fall for any scams 
 
 ## About
 
