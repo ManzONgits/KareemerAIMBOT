@@ -35,6 +35,12 @@ To collect image data for annotating and training:
 python lunar.py collect_data
 ```
 
+## Notes
+- The current model is trained on a dataset of Fortnite players, and it will not work well for other games.
+- The aimbot is configured to only work when targeting/scoping in (holding down the right mouse button). It works best at a medium/long range.
+- There is a known issue that occurs with PyTorch and the GeForce 16 series GPUs on Windows. Unfortunately, if you are using one of these GPUs, the aimbot will not work for you.
+- An improved version that is closed-source is currently being developed
+
 
 ## Issues
 - The method of mouse movement ([SendInput](https://github.com/zeyad-mansour/Lunar/blob/45e05373036f8bd072667313c155e55735cd7f57/lib/aimbot.py#L126)) is slow. For this reason, the crosshair often lags behind a moving detection. This problem can be lessened by increasing the [pixel_increment](https://github.com/zeyad-mansour/Lunar/blob/45e05373036f8bd072667313c155e55735cd7f57/lib/aimbot.py#L56) (e.g. to 4) so fewer calls to that function are made.
