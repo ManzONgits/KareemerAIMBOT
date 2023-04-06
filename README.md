@@ -26,7 +26,9 @@ pip install -r requirements.txt
 ```           
 python Kareemer.py
 ```
-**or just click on the file once everything is setup**
+**or just click on the file once everything is setup
+
+
 To update sensitivity settings:
 ```           
 python Kareemer.py setup
