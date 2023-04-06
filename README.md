@@ -24,15 +24,16 @@ pip install -r requirements.txt
 
 ## Usage
 ```           
-python lunar.py
+python Kareemer.py
 ```
+**or just click on the file once everything is setup**
 To update sensitivity settings:
 ```           
-python lunar.py setup
+python Kareemer.py setup
 ```
 To collect image data for annotating and training:
 ```           
-python lunar.py collect_data
+python Kareemer.py collect_data
 ```
 
 ## Notes
